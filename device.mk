@@ -274,6 +274,12 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/powerhint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.xml \
     $(LOCAL_PATH)/configs/perf/perf-profile0.conf:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perf-profile0.conf
 
+# Power
+PRODUCT_PACKAGES += \
+    power.qcom \
+    android.hardware.power@1.0-impl \
+    android.hardware.power@1.0-service
+
 # QMI
 PRODUCT_PACKAGES += \
     libjson
