@@ -21,18 +21,18 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from land device
 $(call inherit-product, device/xiaomi/land/device.mk)
 
-# Inherit some common Corvus-ROM stuff.
-$(call inherit-product, vendor/du/config/common_full_phone.mk)
+# Inherit some common Nusantara-ROM stuff.
+$(call inherit-product, vendor/nusantara/config/common_full_phone.mk)
 
 # OFFICIAL TAG
-DU_BUILD_TYPE := OFFICIAL
+NAD_BUILD_TYPE := OFFICIAL
 
 # Bootanimation
 TARGET_BOOT_ANIMATION_RES := 720
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := land
-PRODUCT_NAME := du_land
+PRODUCT_NAME := nad_land
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi 3S
 PRODUCT_MANUFACTURER := Xiaomi

@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/du_land.mk
+    $(LOCAL_DIR)/nad_land.mk
 
 COMMON_LUNCH_CHOICES := \
-    du_land-user \
-    du_land-userdebug \
-    du_land-eng
+    nad_land-user \
+    nad_land-userdebug \
+    nad_land-eng
