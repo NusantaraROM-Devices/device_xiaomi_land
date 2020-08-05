@@ -1,0 +1,20 @@
+[
+  {
+    "remote": "github",
+    "repository": "NusantaraROM-devices/vendor_xiaomi_land",
+    "target_path": "vendor/xiaomi",
+    "branch": "10"
+  },
+  {
+    "remote": "github",
+    "repository": "kdrag0n/proton-clang",
+    "target_path": "prebuilts/clang/host/linux-x86/clang-12.0",
+    "branch": "master"
+  },
+  {
+    "remote": "github",
+    "repository": "Aoihara/kernel_xiaomi_msm8937-4.9",
+    "target_path": "kernel/xiaomi/msm8937",
+    "branch": "inline"
+  }
+]
