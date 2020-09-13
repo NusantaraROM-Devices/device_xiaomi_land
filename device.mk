@@ -134,7 +134,7 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-impl \
     android.hardware.camera.provider@2.4-service \
     camera.msm8937 \
-    Snap
+    Camera2
 
 # ConsumerIr
 PRODUCT_PACKAGES += \
