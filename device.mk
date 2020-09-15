@@ -79,6 +79,10 @@ PRODUCT_COPY_FILES += \
 -include $(LOCAL_PATH)/vendor_prop.mk
 -include $(LOCAL_PATH)/product_prop.mk
 
+# APN
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/apns-conf.xml:system/etc/apns-conf.xml
+
 # ANT
 PRODUCT_PACKAGES += \
     AntHalService \
