@@ -3,7 +3,7 @@
     "remote": "github",
     "repository": "NusantaraROM-devices/vendor_xiaomi_land",
     "target_path": "vendor/xiaomi",
-    "branch": "10"
+    "branch": "11"
   },
   {
     "remote": "github",
