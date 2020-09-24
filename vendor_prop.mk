@@ -182,6 +182,8 @@ rild.libpath=/vendor/lib64/libril-qc-qmi-1.so \
 PRODUCT_PROPERTY_OVERRIDES += \
 ro.surface_flinger.force_hwc_copy_for_virtual_displays=true \
 ro.surface_flinger.max_virtual_display_dimension=4096
+ro.surface_flinger.vsync_event_phase_offset_ns=4000000 \
+ro.surface_flinger.vsync_sf_event_phase_offset_ns=8000000
 
 # Time Services
 PRODUCT_PROPERTY_OVERRIDES += \
