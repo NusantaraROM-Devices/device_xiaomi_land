@@ -25,7 +25,7 @@ $(call inherit-product, device/xiaomi/land/device.mk)
 $(call inherit-product, vendor/nusantara/config/common_full_phone.mk)
 
 # Gapps
-$(call inherit-product, vendor/gapps/common/common-vendor.mk)
+$(call inherit-product-if-exists, vendor/gapps/common/common-vendor.mk)
 
 # OFFICIAL TAG
 NAD_BUILD_TYPE := OFFICIAL
