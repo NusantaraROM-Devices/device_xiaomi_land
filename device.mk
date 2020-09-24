@@ -349,6 +349,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     vndk_package
 
+# VNDK Extra version
+PRODUCT_EXTRA_VNDK_VERSIONS := 29
+
 # Whitelisted apps
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/privapp-permissions-qti.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-qti.xml \
