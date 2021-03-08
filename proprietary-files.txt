@@ -520,6 +520,14 @@ vendor/lib/libmmcamera_isp_fovcrop_viewfinder40.so
 vendor/lib/libmmcamera_isp_color_xform_encoder40.so
 vendor/lib/libmmcamera_isp_color_xform_viewfinder40.so
 
+# Camera Enchancement
+vendor/lib/libFaceGrade.so
+vendor/lib/libarcsoft_beauty_shot.so
+vendor/lib/libmmsw_detail_enhancement.so
+vendor/lib/libmmsw_platform.so
+vendor/lib64/libmmsw_detail_enhancement.so
+vendor/lib64/libmmsw_platform.so
+
 # Charger - from LA.UM.8.6.2.r1-08100-89xx.0
 vendor/bin/hvdcp_opti
 -sbin/charger:bin/chargeonlymode
