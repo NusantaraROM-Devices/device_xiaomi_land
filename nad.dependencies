@@ -3,7 +3,7 @@
     "remote": "github",
     "repository": "NusantaraROM-devices/vendor_xiaomi_land",
     "target_path": "vendor/xiaomi",
-    "branch": "10/rebase"
+    "branch": "10"
   },
   {
     "remote": "github",
@@ -13,7 +13,7 @@
   },
   {
     "remote": "github",
-    "repository": "Aoihara/kernel_xiaomi_msm8937-4.9",
+    "repository": "NusantaraROM-devices/kernel_xiaomi_land",
     "target_path": "kernel/xiaomi/msm8937",
     "branch": "staging/rebase"
   }
