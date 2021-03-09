@@ -20,11 +20,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_m.mk)
 
-# Inherit some common AOSiP stuff
-$(call inherit-product, vendor/aosip/config/common_full_phone.mk)
-
-# Inherit Google Play System Update stuff
-$(call inherit-product-if-exists, vendor/google/psu/google-psu.mk)
+# Inherit some common NusantaraROM stuff
+$(call inherit-product, vendor/nusantara/config/common_full_phone.mk)
+NAD_BUILD_TYPE := OFFICIAL
 
 # Inherit from land device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
@@ -33,7 +31,7 @@ PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := land
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_MODEL := Redmi 3S
-PRODUCT_NAME := aosip_land
+PRODUCT_NAME := nad_land
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 

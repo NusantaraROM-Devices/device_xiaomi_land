@@ -141,6 +141,7 @@ TARGET_KERNEL_CLANG_COMPILE := true
 TARGET_KERNEL_VERSION := 4.9
 TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_SOURCE := kernel/xiaomi/msm8937
+TARGET_KERNEL_CLANG_VERSION := 13.0
 
 # Libshim
 TARGET_LD_SHIM_LIBS := /vendor/bin/mm-qcamera-daemon|vendor/lib/libshims_camera.so

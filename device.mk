@@ -20,7 +20,7 @@ LOCAL_PATH := device/xiaomi/land
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-aosip
+    $(LOCAL_PATH)/overlay-nad
 
 # Properties
 -include $(LOCAL_PATH)/vendor_prop.mk
