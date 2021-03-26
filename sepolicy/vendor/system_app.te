@@ -6,3 +6,6 @@ binder_call(system_app, fingerprintd)
 
 # zram
 r_dir_file(system_app sysfs_zram)
+
+# Battery Health
+r_dir_file(system_app, sysfs_battery_supply);
