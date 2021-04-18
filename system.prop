@@ -15,9 +15,11 @@ persist.vendor.camera.display.umax=1920x1080
 persist.vendor.camera.display.lmax=1280x720
 persist.vendor.qti.telephony.vt_cam_interface=2
 persist.camera.gyro.android=0
-persist.camera.HAL3.enabled=0
+persist.camera.HAL3.enabled=1
 persist.camera.is_type=1
 persist.ts.rtmakeup=true
+vendor.camera.hal1.packagelist=com.instagram.android,com.whatsapp,com.facebook.katana,com.gbwhatsapp,org.telegram.messenger,org.thunderdog.challegram
+vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera,org.lineageos.snap
 
 # CNE/DPM
 persist.vendor.cne.feature=1
