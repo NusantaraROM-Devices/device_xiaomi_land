@@ -2965,7 +2965,7 @@ case "$target" in
 
       # Core control parameters on silver
       echo 0 0 0 0 1 1 > /sys/devices/system/cpu/cpu0/core_ctl/not_preferred
-      echo 4 > /sys/devices/system/cpu/cpu0/core_ctl/min_cpus
+      echo 2 > /sys/devices/system/cpu/cpu0/core_ctl/min_cpus
       echo 60 > /sys/devices/system/cpu/cpu0/core_ctl/busy_up_thres
       echo 40 > /sys/devices/system/cpu/cpu0/core_ctl/busy_down_thres
       echo 100 > /sys/devices/system/cpu/cpu0/core_ctl/offline_delay_ms
@@ -3221,7 +3221,7 @@ case "$target" in
 
       # Core control parameters on silver
       echo 0 0 0 0 1 1 > /sys/devices/system/cpu/cpu0/core_ctl/not_preferred
-      echo 4 > /sys/devices/system/cpu/cpu0/core_ctl/min_cpus
+      echo 2 > /sys/devices/system/cpu/cpu0/core_ctl/min_cpus
       echo 60 > /sys/devices/system/cpu/cpu0/core_ctl/busy_up_thres
       echo 40 > /sys/devices/system/cpu/cpu0/core_ctl/busy_down_thres
       echo 100 > /sys/devices/system/cpu/cpu0/core_ctl/offline_delay_ms
@@ -3348,7 +3348,7 @@ case "$target" in
 
             # Core control parameters on silver
             echo 0 0 0 0 1 1 > /sys/devices/system/cpu/cpu0/core_ctl/not_preferred
-            echo 4 > /sys/devices/system/cpu/cpu0/core_ctl/min_cpus
+            echo 2 > /sys/devices/system/cpu/cpu0/core_ctl/min_cpus
             echo 60 > /sys/devices/system/cpu/cpu0/core_ctl/busy_up_thres
             echo 40 > /sys/devices/system/cpu/cpu0/core_ctl/busy_down_thres
             echo 100 > /sys/devices/system/cpu/cpu0/core_ctl/offline_delay_ms
@@ -3497,7 +3497,7 @@ case "$target" in
         "400" | "440" )
         # Core control parameters on silver
         echo 0 0 0 0 1 1 > /sys/devices/system/cpu/cpu0/core_ctl/not_preferred
-        echo 4 > /sys/devices/system/cpu/cpu0/core_ctl/min_cpus
+        echo 2 > /sys/devices/system/cpu/cpu0/core_ctl/min_cpus
         echo 60 > /sys/devices/system/cpu/cpu0/core_ctl/busy_up_thres
         echo 40 > /sys/devices/system/cpu/cpu0/core_ctl/busy_down_thres
         echo 8 > /sys/devices/system/cpu/cpu0/core_ctl/task_thres
@@ -3704,7 +3704,7 @@ case "$target" in
 
         # Core control parameters on silver
         echo 0 0 0 0 1 1 > /sys/devices/system/cpu/cpu0/core_ctl/not_preferred
-        echo 4 > /sys/devices/system/cpu/cpu0/core_ctl/min_cpus
+        echo 2 > /sys/devices/system/cpu/cpu0/core_ctl/min_cpus
         echo 60 > /sys/devices/system/cpu/cpu0/core_ctl/busy_up_thres
         echo 40 > /sys/devices/system/cpu/cpu0/core_ctl/busy_down_thres
         echo 100 > /sys/devices/system/cpu/cpu0/core_ctl/offline_delay_ms
@@ -4107,7 +4107,7 @@ case "$target" in
 
     # Core control parameters on silver
     echo 0 0 0 0 1 1 > /sys/devices/system/cpu/cpu0/core_ctl/not_preferred
-    echo 4 > /sys/devices/system/cpu/cpu0/core_ctl/min_cpus
+    echo 2 > /sys/devices/system/cpu/cpu0/core_ctl/min_cpus
     echo 60 > /sys/devices/system/cpu/cpu0/core_ctl/busy_up_thres
     echo 40 > /sys/devices/system/cpu/cpu0/core_ctl/busy_down_thres
     echo 100 > /sys/devices/system/cpu/cpu0/core_ctl/offline_delay_ms
@@ -4285,7 +4285,7 @@ case "$target" in
 
       # Core control parameters on silver
       echo 0 0 0 0 1 1 > /sys/devices/system/cpu/cpu0/core_ctl/not_preferred
-      echo 4 > /sys/devices/system/cpu/cpu0/core_ctl/min_cpus
+      echo 2 > /sys/devices/system/cpu/cpu0/core_ctl/min_cpus
       echo 60 > /sys/devices/system/cpu/cpu0/core_ctl/busy_up_thres
       echo 40 > /sys/devices/system/cpu/cpu0/core_ctl/busy_down_thres
       echo 100 > /sys/devices/system/cpu/cpu0/core_ctl/offline_delay_ms
